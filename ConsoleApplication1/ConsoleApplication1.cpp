@@ -102,7 +102,7 @@ int main()
 		fstream myFile("output.txt", fstream::out | fstream::app);
 
 
-		for (int i = 0; i > 0; i++) {			
+		for (int i = 0; i >= 0; i++) {			
 			Sleep(interval_seconds*1000);
 			data.clear();
 			handles.clear();			
